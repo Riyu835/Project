@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sign In</string>
+    <string name="edit_name">Username</string>
+    <string name="new_password">Enter a password</string>
+    <string name="textview">TextView</string>
+    <string name="hello">Hello</string>
+    <string name="i">!</string>
+    <string name="to_menu">Sign In</string>
+    <string name="todo">TODO</string>
+</resources>

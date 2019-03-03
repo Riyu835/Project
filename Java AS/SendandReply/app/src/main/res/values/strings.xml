@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Send And Reply</string>
+    <string name="button_main">Send</string>
+    <string name="activity2_name">Second Activity</string>
+    <string name="text_header">Message Receiveded</string>
+    <string name="editText_main">Enter Your Message Here</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_second">Enter Your Reply</string>
+    <string name="text_header_reply">Replay Received</string>
+</resources>
