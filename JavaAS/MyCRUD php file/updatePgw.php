@@ -1,25 +1,15 @@
 <?php
 
- /*
-
- penulis: Muhammad yusuf
- website: http://www.kodingindonesia.com/
-
- */
 	if($_SERVER['REQUEST_METHOD']=='POST'){
-		//MEndapatkan Nilai Dari Variable
 		$id = $_POST['id'];
-		$name = $_POST['name'];
-		$desg = $_POST['desg'];
-		$sal = $_POST['salary'];
+		$name = $_POST['nama'];
+		$desg = $_POST['posisi'];
+		$sal = $_POST['gaji'];
 
-		//import file koneksi database
 		require_once'koneksi.php';
 
-		//Membuat SQL Query
-		$sql = "UPDATE tb_pegawai SET nama = '$name', posisi = '$desg', gaji = '$sal' WHERE id = $id;";
+		$sql = "UPDATE tb_pegawai SET nama = '$nama', posisi = '$posisi', gaji = '$gaji' WHERE id = $id;";
 
-		//Meng-update Database
 		if(mysqli_query($con,$sql)){
 			echo 'Berhasil Update Data Pegawai';
 		}else{
